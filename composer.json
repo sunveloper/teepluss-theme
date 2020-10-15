@@ -1,0 +1,40 @@
+{
+  "name": "sunveloper/teepluss-theme",
+  "description": "Theme will help you organize your themes inside Laravel projects easily and maintain its related assets, layouts and partials for the theme in single directory.",
+  "keywords": [
+    "laravel",
+    "theme",
+    "layout",
+    "asset",
+    "widget",
+    "twig"
+  ],
+  "homepage": "https://github.com/sunveloper/teepluss-theme",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sunveloper",
+      "email": "admin@laravel.in.th"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "twig/twig": "^1.0 || ^2.0 || ^3.0"
+  },
+  "require-dev": {
+    "illuminate/support": ">=5.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sunveloper\\TeeplussTheme\\": "src/"
+    },
+    "classmap": [
+      "src/Exceptions.php"
+    ],
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
